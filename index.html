@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  
+
+</head>
+
+<body>
+  
+  <div id="app">
+    <input type="text" v-model="msg" placeholder="xxxxx">
+    <p>{{msg}}</p>
+    <textarea v-model="msg" cols="30" rows="10"></textarea>
+
+    <label for="male">male</label>
+    <input id="male" type="checkbox" value="male" v-model="sex">
+    <label for="female">female</label>
+    <input id="female" type="checkbox" value="female" v-model="sex">
+    <p>{{sex}}</p>
+
+    <input id="true" type="radio" value="true" v-model="sexy">
+    <label for="true">true</label>
+    <input id="false" type="radio" value="false" v-model="sexy">
+    <label for="false">false</label>
+    <p>{{sexy}}</p>
+
+    <select v-model="select" multiple style="width: 100px;">
+      <option value="a">a</option>
+      <option value="b">b</option>
+      <option value="c">c</option>
+    </select>
+    <p>{{select}}</p>
+
+    <input type="text" id="number" v-model="number">
+    <input type="text" v-model.lazy="username">
+    <p>{{username}}</p>
+    <p>{{number}}</p>
+  </div>
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js'></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+  <script>
+
+    let app = new Vue({
+      el:'#app',
+      data:{
+        msg:'',
+        sex:[],
+        sexy:'',
+        select:[],
+        username:'xxx',
+        number:'',
+      }
+    });
+
+
+  </script>
+</body>
+
+</html>
