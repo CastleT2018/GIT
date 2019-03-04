@@ -17,12 +17,12 @@
 //-----------------------------------------------------
 <h1>C.導入Bootstrap</h1>
 <h2>1.cd 專案名稱</h2>
-<h2>npm install bootstrap --save --save-exact  //--save-exact：最終版</h2>
-<h2>main.js                         //編譯src檔下main.js</h2> 
-<h2>import 'bootstrap/dist/css/bootstrap.min.css'  //導入
-<h2>App.vue                         //編譯src檔下App.vue
-<h2> <button class="btn btn-primary">OK<button> //導入至template內</h2>
-<h2>npm start   //編譯後，給網址</h2>
+<h2>2.npm install bootstrap --save --save-exact  //--save-exact：最終版</h2>
+<h2>3.main.js                         //編譯src檔下main.js</h2> 
+<h2>4.import 'bootstrap/dist/css/bootstrap.min.css'  //導入
+<h2>5.App.vue                         //編譯src檔下App.vue
+<h2>6.<button class="btn btn-primary">OK<button> //導入至template內</h2>
+<h2>7.npm start   //編譯後，給網址</h2>
 //-----------------------------------------------------
 
 
